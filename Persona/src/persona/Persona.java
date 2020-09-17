@@ -5,12 +5,8 @@
  */
 package persona;
 
-/**
- *
- * @author Isaac Tabarez
- */
 public class Persona {
-	//Declarar estos datos como privados
+        //Declarar estos datos como privados 
 	private String nombre;
 	private int edad;
 	private String sexo;
@@ -53,4 +49,25 @@ public class Persona {
 	public double getPeso() {
 		return peso;
 	}
+
+	public void setPeso(double peso) {
+		this.peso = peso;
+	}
+
+	public double getAltura() {
+		return altura;
+	}
+
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
+
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", edad=" + edad + ", sexo=" + sexo + ", peso=" + peso + ", altura="
+				+ altura + "]";
+	}
+		
+	
+	
 }
