@@ -81,7 +81,7 @@ public class PilaOrden {
                         tope++;
                     } else {
                     }
-                    System.out.println(" Un dato ha sido gregado ");
+                    System.out.println(" Un dato ha sido Agregado ");
                     break;
             }
         //Salir del ciclo 
